@@ -11,7 +11,7 @@ app.use(cors())
 app.use('/user',Enrutado({Model:Model}))
 
 app.get('/', (req,res)=>{
-  const a = req.query
+  res.status(200).send('Hola')
 })
 
 
