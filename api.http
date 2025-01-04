@@ -1,0 +1,30 @@
+
+###
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{  
+    "nombre": "Loidis02",  
+    "contrasena": "LOsIDS"  
+}
+
+###
+
+POST http://localhost:4000/user/register
+Content-Type: application/json
+
+{  
+    "nombre": "Loidi2s021",  
+    "contrasena": "LOI2DS" ,
+    "alias": "LOIDI2201" 
+}
+
+###
+PATCH  http://localhost:4000/user/update/126e4088-c704-11ef-a5e6-cecd02c24f20
+Content-Type:  application/json
+
+{  
+    "nombre": "Loidis02",  
+    "contrasena": "LOsIDS" 
+   
+}
